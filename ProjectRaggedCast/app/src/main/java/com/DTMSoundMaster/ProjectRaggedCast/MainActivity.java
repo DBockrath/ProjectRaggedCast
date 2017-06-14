@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 		
-		String fontPath = "@drawable/good_dog.otf";
+		String fontPath = "drawable/good_dog.otf";
 		TextView txt1 = (TextView)findViewById(R.id.title);
 		Typeface tf = Typeface.createFromAsset(getAssets(), fontPath);
 		txt1.setTypeface(tf);
