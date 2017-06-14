@@ -3,20 +3,27 @@
     package="com.DTMSoundMaster.ProjectRaggedCast" >
 
     <application
+		
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme"
-		android:resizeableActivity = "true">
+		android:resizeableActivity = "true"
+		android:screenOrientation="landscape" >
+		
         <activity
+			
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="Project Ragged Cast"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+			
             <intent-filter>
+				
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+				<category android:name="android.intent.category.LAUNCHER" />
+					
             </intent-filter>
+			
         </activity>
+		
     </application>
 
 </manifest>

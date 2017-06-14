@@ -10,7 +10,7 @@
 		android:layout_width="wrap_content"
 		android:text="Project Ragged Cast"
 		android:id="@+id/title"
-		android:textSize="100sp"
+		android:textSize="75sp"
 		android:layout_centerHorizontal="true"
 		android:layout_centerVertical="true"/>
 
