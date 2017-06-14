@@ -5,17 +5,19 @@ import android.os.*;
 import android.widget.*;
 import android.graphics.*;
 
-public class MainActivity extends Activity 
-{
+public class MainActivity extends Activity {
+	
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle savedInstanceState) {
+        
+		super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 		
-		String fontPath = "res/fonts/good_dog.otf";
+		String fontPath = "drawable/good_dog.otf";
 		TextView txt1 = (TextView)findViewById(R.id.title);
 		Typeface tf = Typeface.createFromAsset(getAssets(), fontPath);
 		txt1.setTypeface(tf);
+		
     }
+	
 }
