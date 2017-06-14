@@ -13,9 +13,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 		
-		String fontPath = "drawable/ameticfont.ttf";
 		TextView txt1 = (TextView)findViewById(R.id.title);
-		Typeface tf = Typeface.createFromAsset(getAssets(), fontPath);
+		Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/daniel.otf");
 		txt1.setTypeface(tf);
 		
     }
