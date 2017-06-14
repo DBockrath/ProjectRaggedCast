@@ -13,11 +13,11 @@
 		android:allowBackup="true"
 		android:icon="@drawable/ic_launcher"
 		android:resizeableActivity="true"
+		android:label="Project Ragged Cast"
 		android:screenOrientation="landscape">
 
 		<activity
 			android:name=".MainActivity"
-			android:label="Project Ragged Cast"
 			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
 
 			<intent-filter>
