@@ -8,7 +8,20 @@
 		android:layout_height="wrap_content"
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="wrap_content"
-		android:text="Large Text"/>
+		android:text="Project Ragged Cast"
+		android:id="@+id/title"
+		android:textSize="100sp"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"/>
+
+	<ProgressBar
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="500dp"
+		android:layout_below="@id/title"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/startupload"
+		android:layout_marginTop="75dp"/>
 
 </RelativeLayout>
 
